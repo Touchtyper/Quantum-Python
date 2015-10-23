@@ -1,6 +1,7 @@
 import requests 
 import json
 
+# Call API
 url = requests.get("https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8")
 url.text
 
